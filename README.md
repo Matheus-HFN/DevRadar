@@ -11,6 +11,8 @@ nodemon - Auto restart do server (dev dependency),
 mongoose - Conexão com o banco de dado mongoDB Atlas, 
 axios - Requisição ajax em APIs, 
 
+Rode o comando: yarn dev
+
 # Utilizando as rotas
 
 POST - Cadastrar Dev: http://localhost:3333/devs Json (body): github_username, techs, latitude, longitude
@@ -21,11 +23,11 @@ GET - Buscar Devs: http://localhost:3333/devs Query (no-body): latitude, longitu
 
 # Como iniciar frontend:
 
-Rode o comando: Yarn start
+Rode o comando: yarn start
 
 # Como iniciar mobile:
 
-Rode o comando: Yarn start, 
+Rode o comando: yarn start, 
 Tenho o app do expo instalado em seu smartphone, 
 Scan do QR code
 
